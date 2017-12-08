@@ -11,7 +11,7 @@ import android.view.Window;
 public class MainActivity extends Activity {
 
 
-    private static int SPLASH_TIME_OUT = 4000;
+    int Splash = 2900;
 
 
 
@@ -25,12 +25,12 @@ public class MainActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent home = new Intent(MainActivity.this,welkom.class);
+                Intent home = new Intent(MainActivity.this,Main.class);
                 startActivity(home);
                 finish();
 
             }
-        },SPLASH_TIME_OUT);
+        },Splash);
 
 
     }

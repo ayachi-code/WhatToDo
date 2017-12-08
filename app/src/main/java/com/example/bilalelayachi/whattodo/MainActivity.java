@@ -14,9 +14,6 @@ public class MainActivity extends Activity {
     int Splash = 2900;
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

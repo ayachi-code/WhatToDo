@@ -8,4 +8,12 @@
     tools:context="com.example.bilalelayachi.whattodo.Main"
     tools:showIn="@layout/app_bar_main">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="154dp" />
 </android.support.constraint.ConstraintLayout>
